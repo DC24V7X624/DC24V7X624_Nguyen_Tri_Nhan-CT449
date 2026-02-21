@@ -1,17 +1,8 @@
 {
-  "name": "dc24v7x624_nguyentrinhan_backend_1",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.22.1",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
     "require": "^0.4.4"
   },
   "devDependencies": {
@@ -20,7 +11,10 @@
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-react": "^7.37.4",
     "globals": "^15.14.0",
-    "nodemon": "^3.1.11",
+    "nodemon": "^3.1.14",
     "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
   }
 }
